@@ -1,0 +1,43 @@
+Caractere de conversão  | Usado para
+
+d, i                    | Inteiro (int)
+
+u                       | Inteiro sem sinal
+
+f                       | Ponto flutuante (float) como m.ddddd
+
+e                       | Ponto flutuante (float) como m.ddddde+/-xx
+
+E                       | Ponto flutuante (float) como m.dddddE+/-xx
+
+g                       | Usa %e com expoentes menores que −4 ou maiores que +5, caso contrário usa %f
+
+c                       | Inserir um único caractere
+
+s                       | String, ou qualquer tipo do Python que possa ser convertido para string usando a função str
+
+%                       | Inserir um caractere %
+
+_____________OPÇÕES ADICIONAIS__________
+Modificador | Exemplo | Descrição
+
+número | %20d | Coloca o valor em um campo de 20 caracteres
+
+- | %-20d | Coloca o valor em um campo de 20 caracteres, justificado à esquerda
+
++ | %+20d | Coloca o valor em um campo de 20 caracteres, justificado à direita
+
+0 | %020d | Coloca o valor em um campo de 20 caracteres, preenchido com zeros à esquerda
+
+. | %20.2f | Coloca o valor em um campo de 20 caracteres, com 2 caracteres à direita do ponto decimal
+
+(nome) | %(nome)d | Coloca o valor associado à chave nome de um dicionário fornecido
+
+______________TIPOS DE VARIAVEIS NUMERICO_______________
+
+inteiro (int)
+ponto flutuante (float)
+booleano (bool)
+complexo (complex)
+
+acrescentando
